@@ -429,18 +429,21 @@ nvm help --no-colors
 TERM=dumb nvm ls
 ```
 
+#### Restoring PATH
 To restore your PATH, you can deactivate it:
 
 ```sh
 nvm deactivate
 ```
 
+#### Set default node version
 To set a default Node version to be used in any new shell, use the alias 'default':
 
 ```sh
 nvm alias default node
 ```
 
+#### Use a mirror of node binaries
 To use a mirror of the node binaries, set `$NVM_NODEJS_ORG_MIRROR`:
 
 ```sh
